@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CA4FEE1A5886AE0036FC77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CA4FED1A5886AE0036FC77 /* main.m */; };
+		03CA4FF11A5886AE0036FC77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CA4FF01A5886AE0036FC77 /* AppDelegate.m */; };
+		03CA4FF41A5886AE0036FC77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CA4FF31A5886AE0036FC77 /* ViewController.m */; };
+		03CA4FF71A5886AF0036FC77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CA4FF51A5886AF0036FC77 /* Main.storyboard */; };
+		03CA4FF91A5886AF0036FC77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CA4FF81A5886AF0036FC77 /* Images.xcassets */; };
+		03CA4FFC1A5886AF0036FC77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CA4FFA1A5886AF0036FC77 /* LaunchScreen.xib */; };
+		03CA50081A5886AF0036FC77 /* CofeeFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CA50071A5886AF0036FC77 /* CofeeFinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03CA50021A5886AF0036FC77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03CA4FE01A5886AE0036FC77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CA4FE71A5886AE0036FC77;
+			remoteInfo = CofeeFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CA4FE81A5886AE0036FC77 /* CofeeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CofeeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CA4FEC1A5886AE0036FC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CA4FED1A5886AE0036FC77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03CA4FEF1A5886AE0036FC77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03CA4FF01A5886AE0036FC77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03CA4FF21A5886AE0036FC77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03CA4FF31A5886AE0036FC77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03CA4FF61A5886AF0036FC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03CA4FF81A5886AF0036FC77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03CA4FFB1A5886AF0036FC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		03CA50011A5886AF0036FC77 /* CofeeFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CofeeFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CA50061A5886AF0036FC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CA50071A5886AF0036FC77 /* CofeeFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CofeeFinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CA4FE51A5886AE0036FC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CA4FFE1A5886AF0036FC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CA4FDF1A5886AE0036FC77 = {
+			isa = PBXGroup;
+			children = (
+				03CA4FEA1A5886AE0036FC77 /* CofeeFinder */,
+				03CA50041A5886AF0036FC77 /* CofeeFinderTests */,
+				03CA4FE91A5886AE0036FC77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03CA4FE91A5886AE0036FC77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03CA4FE81A5886AE0036FC77 /* CofeeFinder.app */,
+				03CA50011A5886AF0036FC77 /* CofeeFinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CA4FEA1A5886AE0036FC77 /* CofeeFinder */ = {
+			isa = PBXGroup;
+			children = (
+				03CA4FEF1A5886AE0036FC77 /* AppDelegate.h */,
+				03CA4FF01A5886AE0036FC77 /* AppDelegate.m */,
+				03CA4FF21A5886AE0036FC77 /* ViewController.h */,
+				03CA4FF31A5886AE0036FC77 /* ViewController.m */,
+				03CA4FF51A5886AF0036FC77 /* Main.storyboard */,
+				03CA4FF81A5886AF0036FC77 /* Images.xcassets */,
+				03CA4FFA1A5886AF0036FC77 /* LaunchScreen.xib */,
+				03CA4FEB1A5886AE0036FC77 /* Supporting Files */,
+			);
+			path = CofeeFinder;
+			sourceTree = "<group>";
+		};
+		03CA4FEB1A5886AE0036FC77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CA4FEC1A5886AE0036FC77 /* Info.plist */,
+				03CA4FED1A5886AE0036FC77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03CA50041A5886AF0036FC77 /* CofeeFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				03CA50071A5886AF0036FC77 /* CofeeFinderTests.m */,
+				03CA50051A5886AF0036FC77 /* Supporting Files */,
+			);
+			path = CofeeFinderTests;
+			sourceTree = "<group>";
+		};
+		03CA50051A5886AF0036FC77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CA50061A5886AF0036FC77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03CA4FE71A5886AE0036FC77 /* CofeeFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CA500B1A5886AF0036FC77 /* Build configuration list for PBXNativeTarget "CofeeFinder" */;
+			buildPhases = (
+				03CA4FE41A5886AE0036FC77 /* Sources */,
+				03CA4FE51A5886AE0036FC77 /* Frameworks */,
+				03CA4FE61A5886AE0036FC77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CofeeFinder;
+			productName = CofeeFinder;
+			productReference = 03CA4FE81A5886AE0036FC77 /* CofeeFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03CA50001A5886AF0036FC77 /* CofeeFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CA500E1A5886AF0036FC77 /* Build configuration list for PBXNativeTarget "CofeeFinderTests" */;
+			buildPhases = (
+				03CA4FFD1A5886AF0036FC77 /* Sources */,
+				03CA4FFE1A5886AF0036FC77 /* Frameworks */,
+				03CA4FFF1A5886AF0036FC77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03CA50031A5886AF0036FC77 /* PBXTargetDependency */,
+			);
+			name = CofeeFinderTests;
+			productName = CofeeFinderTests;
+			productReference = 03CA50011A5886AF0036FC77 /* CofeeFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03CA4FE01A5886AE0036FC77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Don Wettasinghe";
+				TargetAttributes = {
+					03CA4FE71A5886AE0036FC77 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					03CA50001A5886AF0036FC77 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 03CA4FE71A5886AE0036FC77;
+					};
+				};
+			};
+			buildConfigurationList = 03CA4FE31A5886AE0036FC77 /* Build configuration list for PBXProject "CofeeFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03CA4FDF1A5886AE0036FC77;
+			productRefGroup = 03CA4FE91A5886AE0036FC77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03CA4FE71A5886AE0036FC77 /* CofeeFinder */,
+				03CA50001A5886AF0036FC77 /* CofeeFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CA4FE61A5886AE0036FC77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CA4FF71A5886AF0036FC77 /* Main.storyboard in Resources */,
+				03CA4FFC1A5886AF0036FC77 /* LaunchScreen.xib in Resources */,
+				03CA4FF91A5886AF0036FC77 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CA4FFF1A5886AF0036FC77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CA4FE41A5886AE0036FC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CA4FF41A5886AE0036FC77 /* ViewController.m in Sources */,
+				03CA4FF11A5886AE0036FC77 /* AppDelegate.m in Sources */,
+				03CA4FEE1A5886AE0036FC77 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CA4FFD1A5886AF0036FC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CA50081A5886AF0036FC77 /* CofeeFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03CA50031A5886AF0036FC77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CA4FE71A5886AE0036FC77 /* CofeeFinder */;
+			targetProxy = 03CA50021A5886AF0036FC77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03CA4FF51A5886AF0036FC77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CA4FF61A5886AF0036FC77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03CA4FFA1A5886AF0036FC77 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CA4FFB1A5886AF0036FC77 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03CA50091A5886AF0036FC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03CA500A1A5886AF0036FC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03CA500C1A5886AF0036FC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CofeeFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03CA500D1A5886AF0036FC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CofeeFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03CA500F1A5886AF0036FC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CofeeFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CofeeFinder.app/CofeeFinder";
+			};
+			name = Debug;
+		};
+		03CA50101A5886AF0036FC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CofeeFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CofeeFinder.app/CofeeFinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CA4FE31A5886AE0036FC77 /* Build configuration list for PBXProject "CofeeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CA50091A5886AF0036FC77 /* Debug */,
+				03CA500A1A5886AF0036FC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CA500B1A5886AF0036FC77 /* Build configuration list for PBXNativeTarget "CofeeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CA500C1A5886AF0036FC77 /* Debug */,
+				03CA500D1A5886AF0036FC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03CA500E1A5886AF0036FC77 /* Build configuration list for PBXNativeTarget "CofeeFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CA500F1A5886AF0036FC77 /* Debug */,
+				03CA50101A5886AF0036FC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03CA4FE01A5886AE0036FC77 /* Project object */;
+}
